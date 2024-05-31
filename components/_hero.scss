@@ -1,0 +1,30 @@
+.hero {
+	background: url(../assets/img/bg-hero.png);
+	background-size: cover;
+	h1 {
+		display: flex;
+		font-size: 48px;
+		line-height: 63.98px;
+		color: #d4c17f;
+	}
+
+	&__content {
+		margin: 0 auto;
+		margin-top: 225px;
+		text-align: center;
+		max-width: 556px;
+	}
+
+	&__bottom {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 100px;
+	}
+
+	span {
+		display: flex;
+		align-items: center;
+		gap: 15px;
+	}
+}
